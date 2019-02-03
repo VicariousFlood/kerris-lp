@@ -1,0 +1,180 @@
+/* * BASE * -------------*/
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(".././fonts/Poppins-Regular.ttf"); }
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(".././fonts/Poppins-SemiBold.ttf"); }
+/* * LAYOUT * -------------*/
+body {
+  font-family: Poppins-Regular; }
+  body header {
+    background-color: #FFC625;
+    position: relative; }
+    body header .top {
+      background-color: white;
+      padding: 15px 0; }
+    body header .main {
+      padding-top: 100px;
+      padding-bottom: 80px; }
+      body header .main .icon-1 {
+        position: absolute;
+        margin: auto;
+        display: block;
+        left: 70px;
+        right: 0;
+        top: 240px;
+        z-index: 1; }
+      body header .main h2 {
+        font-size: 60px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 83px;
+        margin-bottom: 40px; }
+      body header .main p {
+        font-family: Poppins-Regular;
+        font-size: 14px;
+        color: #091E2B;
+        letter-spacing: 0;
+        text-align: left;
+        line-height: 25px;
+        margin-bottom: 90px; }
+        body header .main p b {
+          display: block;
+          font-family: Poppins-SemiBold; }
+      body header .main a button {
+        background-color: #6C7DE3;
+        color: white;
+        border: none;
+        font-family: Poppins-SemiBold;
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        padding: 15px 120px;
+        cursor: pointer;
+        position: relative;
+        transition: .3s;
+        outline: none; }
+        body header .main a button:before {
+          content: url(.././images/arrow.svg);
+          position: absolute;
+          left: 65px;
+          top: 40px;
+          transform: rotate(90deg);
+          transition: top .2s linear; }
+        body header .main a button:hover {
+          background-color: white;
+          color: #6C7DE3; }
+          body header .main a button:hover:before {
+            top: 60px; }
+      body header .main .main-picture {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 50%;
+        height: 740px;
+        object-fit: cover; }
+      body header .main .icon-2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 162px;
+        margin: auto; }
+  body section.how-it-works {
+    padding-top: 45px; }
+    body section.how-it-works h2 {
+      font-family: Poppins-SemiBold;
+      font-size: 60px;
+      color: #231F20;
+      letter-spacing: 0;
+      line-height: 83px;
+      margin-bottom: 50px; }
+    body section.how-it-works .yellow-dot {
+      margin-bottom: 80px; }
+    body section.how-it-works .box img {
+      float: right;
+      clear: both; }
+    body section.how-it-works .box .text {
+      width: 100%;
+      float: left; }
+      body section.how-it-works .box .text h3 {
+        font-size: 36px;
+        color: #231F20;
+        letter-spacing: 0;
+        background-repeat: no-repeat;
+        background-position: top left;
+        padding-top: 35px;
+        padding-left: 60px; }
+      body section.how-it-works .box .text p {
+        font-size: 14px;
+        color: #091E2B;
+        letter-spacing: 0;
+        text-align: left;
+        line-height: 25px;
+        padding-left: 80px; }
+    body section.how-it-works .box:first-of-type .text h3 {
+      background-image: url(.././images/head_1.svg); }
+    body section.how-it-works .box:last-of-type .text h3 {
+      background-image: url(.././images/head_2.svg); }
+  body footer {
+    margin-top: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center; }
+    body footer p {
+      font-size: 14px;
+      color: #7E7E7E;
+      letter-spacing: 0; }
+    body footer img {
+      float: right; }
+@media (min-width: 768px) and (max-width: 991px) {
+  body header .main {
+    padding-top: 0; }
+    body header .main .main-picture {
+      position: static;
+      width: 100%;
+      height: auto; }
+    body header .main h2 {
+      margin-top: 20px; }
+    body header .main a {
+      margin: auto;
+      display: block;
+      text-align: center;
+      max-width: 350px;
+      width: 100%; }
+    body header .main .icon-1 {
+      display: none; } }
+@media (max-width: 767px) {
+  body header .main {
+    padding-top: 0; }
+    body header .main .main-picture {
+      position: static;
+      width: 100%;
+      height: auto; }
+    body header .main h2 {
+      text-align: center;
+      margin-top: 10px; }
+    body header .main a button {
+      margin-top: 20px;
+      display: block;
+      padding: 15px 90px;
+      width: 100%; }
+      body header .main a button:before {
+        left: 40px; }
+    body header .main .icon-1 {
+      display: none; }
+    body header .main .icon-2 {
+      bottom: 200px; }
+  body section.how-it-works h2 {
+    text-align: center; }
+  body section.how-it-works .box .text p {
+    padding-left: 60px;
+    padding-right: 20px; }
+  body footer {
+    text-align: center; }
+    body footer img {
+      float: none;
+      margin: auto;
+      display: block; } }
+/*# sourceMappingURL=main.css.map */

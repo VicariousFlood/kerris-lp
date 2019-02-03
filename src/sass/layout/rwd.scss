@@ -1,0 +1,87 @@
+@media (min-width:768px) and (max-width:991px) {
+  body {
+    header {
+      .main {
+        padding-top: 0;
+        .main-picture {
+          position: static;
+          width: 100%;
+          height: auto;
+        }
+        h2 {
+          margin-top: 20px;
+        }
+        a {
+          margin: auto;
+          display: block;
+          text-align: center;
+          max-width: 350px;
+          width: 100%;
+        }
+        .icon-1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width:767px) {
+  body {
+    header {
+      .main {
+        padding-top: 0;
+        .main-picture {
+          position: static;
+          width: 100%;
+          height: auto;
+        }
+        h2 {
+          text-align: center;
+          margin-top: 10px;
+        }
+        a {
+          button {
+            margin-top: 20px;
+            display: block;
+            padding: 15px 90px;
+            width: 100%;
+            &:before {
+              left: 40px;
+            }
+          }
+        }
+        .icon-1 {
+          display: none;
+        }
+        .icon-2 {
+          bottom: 200px;
+        }
+      }
+    }
+    section.how-it-works {
+      h2 {
+        text-align: center;
+      }
+      .box {
+        .text {
+          p {
+            padding-left: 60px;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+    footer {
+      text-align: center;
+      img {
+        float: none;
+        margin: auto;
+        display: block;
+      }
+    }
+  }
+}

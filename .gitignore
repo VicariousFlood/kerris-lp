@@ -1,0 +1,42 @@
+######################################
+## Ignore Settings
+######################################
+.htaccess
+.htaccess-localdev
+
+
+######################################
+## Ignore tempporary file & folders
+######################################
+/cache/
+/tmp/
+/node_modules/
+
+_deployment/backup/
+_deployment/tmp/
+_deployment/backup-staging/
+_deployment/tmp-staging/
+
+
+######################################
+## Ignore user file & folders
+######################################
+/_robocze/
+/_backup/
+.idea/
+phpinfo.php
+
+
+######################################
+## Exclude form ignore
+######################################
+!/cache/index.html
+!/cache/.gitkeep
+!/node_modules/.gitkeep
+!tmp/index.html
+!tmp/.gitkeep
+
+!_deployment/backup/.gitkeep
+!_deployment/tmp/.gitkeep
+!_deployment/backup-staging/.gitkeep
+!_deployment/tmp-staging/.gitkeep
